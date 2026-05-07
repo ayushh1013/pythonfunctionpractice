@@ -1,0 +1,5 @@
+s = "aabcdeff"
+for ch in s:
+    if s.count(ch) ==1:
+        print("first non repeating :",ch)
+        break
