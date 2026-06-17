@@ -1,0 +1,9 @@
+numbers = [1,23,434,43]
+target = int(input("enter a number"))
+for i in range(numbers):
+     if  i == target:
+     print("numbers is found")
+     break
+
+else:
+    print("numbers is not found")
