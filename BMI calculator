@@ -1,0 +1,4 @@
+weight = float(input("weight (kg): "))
+height = float(input("
+bmi = weight / height **2
+print("bm" = {bmi:.2f}
