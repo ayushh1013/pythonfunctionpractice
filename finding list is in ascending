@@ -1,0 +1,10 @@
+numbers = [1,2,3,4,5]
+ascending = True
+for i in range(len(numbers) -1):
+  if numbers[i] > numbers[i + 1]:
+     is_ascending = False
+     break
+if is_acsending:
+   print("List is in ascending order")
+else:
+   print("List is not ascending order")
