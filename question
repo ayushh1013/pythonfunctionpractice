@@ -1,0 +1,9 @@
+signal = "g"
+if signal == "R":
+   print("stop")
+
+elif signal == "y":
+    print("Wait")
+
+else:
+    print("Go")
