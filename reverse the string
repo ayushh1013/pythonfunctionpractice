@@ -1,0 +1,7 @@
+text = "hello i am ayush"
+result = ""
+words = text.split()
+words.reverse()
+result = result.join(words)
+
+print(result)
