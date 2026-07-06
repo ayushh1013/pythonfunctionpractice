@@ -1,0 +1,8 @@
+a = [1,2,8,3,4]
+sorted = True
+for i in range(len(a)-1):
+    if a[i] > a [i + 1]:
+        sorted = False
+        break
+
+print(sorted)
