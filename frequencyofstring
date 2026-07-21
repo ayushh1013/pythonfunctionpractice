@@ -1,0 +1,9 @@
+text = input("Enter a text :")
+char = {}
+for i in text:
+   if i in char:
+else:
+char[i] = 1
+
+for key, value in char.items():
+print(key,":",value)
